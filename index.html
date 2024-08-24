@@ -1,0 +1,38 @@
+<!Doctype html>
+<html>
+  <head><title>Survey</title>
+  <link rel="stylesheet" href="style.css">
+  </head>
+  <body><div id="container">
+    <header>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+</header>
+    <form id="survey-form">
+      <label id="name-label">Name <input type="text" id="name" placeholder="Enter your name"></label>
+      <label id="email-label">Email <input type="email" id="email" placeholder="Enter yout email"></label>
+      <label id="number-label">Age(optional) <input type="number" min="10" max="100" id="number" placeholder="Age"></label>
+      <div id="check">Which option best describes your current role? <select id="dropdown">
+        <option>first</option>
+        <option>fi</option>
+        <option>rst</option>
+        <option>st</option></label>
+      </select>
+      <label>Would you recommend freeCodeCamp to a friend?
+      <label><input type="radio" name="refer"> Definetly</label>
+      <label><input type="radio" name="refer"> May be</label>
+      <label><input type="radio" name="refer">Not Sure<label>
+      </div>
+      <div>What would you like to see improved? (Check all that apply)<label><input type="checkbox" value="fullstack"> Fullstack</label>
+      <label><input type="checkbox" value="web"> Webdevelopment</label>
+      <label><input type="checkbox" value="fullstack"> Fullstack</label>
+      <label><input type="checkbox" value="video"> Videos</label>
+      <label><input type="checkbox" value="Challenges"> Challenges</label>
+      </div>
+      <div>Any comments or suggestions?
+        <input type="textarea" placeholder="Enter your comment here...">
+      </div>
+      <button id="submit">Submit</button>
+      </form></div>
+  </body>
+</html>
